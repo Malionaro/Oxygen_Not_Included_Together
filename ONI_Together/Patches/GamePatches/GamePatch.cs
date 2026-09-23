@@ -78,6 +78,7 @@ namespace ONI_Together.Patches.GamePatches
       CopySettingsToolSyncer.RegisterNetId(Game.Instance.gameObject);
       UtilityBuildToolSyncer.RegisterNetId(Game.Instance.gameObject);
       BuildToolSyncer.RegisterNetId(Game.Instance.gameObject);
+      SandboxToolSyncer.RegisterNetId(Game.Instance.gameObject);
     }
   }
 }
