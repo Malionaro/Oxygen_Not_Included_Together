@@ -71,6 +71,7 @@ namespace ONI_Together.Patches.GamePatches
 
       MoveToLocationToolSyncer.RegisterNetId(Game.Instance.gameObject);
       DragToolSyncer.RegisterNetId(Game.Instance.gameObject);
+      BuildingActionSyncer.RegisterNetId(Game.Instance.gameObject);
     }
   }
 }
