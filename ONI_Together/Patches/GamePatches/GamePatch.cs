@@ -74,6 +74,7 @@ namespace ONI_Together.Patches.GamePatches
       BuildingActionSyncer.RegisterNetId(Game.Instance.gameObject);
       DigToolSyncer.RegisterNetId(Game.Instance.gameObject);
       AttackToolSyncer.RegisterNetId(Game.Instance.gameObject);
+      CaptureToolSyncer.RegisterNetId(Game.Instance.gameObject);
     }
   }
 }
